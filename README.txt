@@ -57,7 +57,7 @@ for the client is as follows:
   @Context
   ^Goal
   !Priority
-  <[Date]
+  #Today
 
 You can encase the symbol with square brackets if there is a space involved:
 
@@ -65,6 +65,7 @@ You can encase the symbol with square brackets if there is a space involved:
   @[Someday / Maybe]
   ^[Write Toodledo Ruby API]
   !top
+  #[2011-03-18]
   
 Let's use the command line client to list only the tasks you have in the office:
 
@@ -76,7 +77,7 @@ Now let's add a task with several symbols:
 
 Now let's add a date:
 
-  toodledo add Write docs <[2011-03-16]
+  toodledo add Write docs #Today
 
 You can also edit tasks, using the task id.  This sets the folder to Someday:
 

@@ -17,7 +17,7 @@ module Toodledo
       
       PRIORITY_REGEXP = /!(top|high|medium|low|negative)/
       
-      DATE_REGEXP = /\<\[(.*?)\]/
+      DATE_REGEXP = /\#((\w+)|\[(.*?)\])/
       
       # Note that level must exist at the beginning of the line
       LEVEL_REGEXP = /^(life|medium|short)/
